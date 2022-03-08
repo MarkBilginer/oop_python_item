@@ -1,0 +1,6 @@
+# When to use class methods and when to use static methods
+    We use static methods when what we want to do does not have to be
+    unique for the instance.
+    We use class methods to do something that has a relationship
+    with the lass, but usually, those are used to manipulate different
+    structures of data to instantiate objects, like we have done with CSV.
