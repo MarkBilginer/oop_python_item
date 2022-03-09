@@ -1,0 +1,7 @@
+class BaseClass(object):
+    def __init__(self, *args, **kwargs):
+        pass
+
+class ChildClass(BaseClass):
+    def __init__(self, *args, **kwargs):
+        super(ChildClass, self).__init__(*args, **kwargs)
